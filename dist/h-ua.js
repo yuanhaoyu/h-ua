@@ -66,5 +66,5 @@ require = (function (modules, cache, entry) {
   // Override the current require with this new one
   return newRequire;
 })({1:[function(require,module,exports) {
-"use strict";function n(n){for(let e=0;e<s.length;e++)if(s[e].n(n))return s[e].v;return"brower"}function e(n){return"micromessenger"==n.match(/MicroMessenger/i)}function r(n){return-1!==n.indexOf("mqqbrowser")}function t(n){return-1!==n.indexOf("android")}function o(n){return!!/iphone|ipad|ipod/.test(n)}function i(n){return-1!==n.indexOf("weibo")}Object.defineProperty(exports,"__esModule",{value:!0});const u=function(e){return n(navigator.userAgent.toLowerCase())},s=[{n:e,v:"wechat"},{n:r,v:"qq"},{n:i,v:"weibo"},{n:t,v:"android"},{n:o,v:"ios"}];window.UA=u,exports.default=u;
+"use strict";function n(n){for(let e=0;e<s.length;e++)if(s[e].n(n))return s[e].v;return"brower"}function e(n){return"micromessenger"==n.match(/MicroMessenger/i)}function r(n){return-1!==n.indexOf("mqqbrowser")}function t(n){return-1!==n.indexOf("android")}function o(n){return!!/iphone|ipad|ipod/.test(n)}function i(n){return-1!==n.indexOf("weibo")}Object.defineProperty(exports,"__esModule",{value:!0});const u=function(e){return n(navigator.userAgent.toLowerCase())},s=[{n:e,v:"wechat"},{n:r,v:"mqq"},{n:i,v:"weibo"},{n:t,v:"android"},{n:o,v:"ios"}];window.UA=u,exports.default=u;
 },{}]},{},[1])
