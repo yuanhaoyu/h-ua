@@ -1,0 +1,21 @@
+{
+  "name": "h-ua",
+  "version": "1.0.0",
+  "description": "help u that according to ua judge the current environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/h-ua.js -d dev",
+    "build": "parcel build ./src/h-ua.js  -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuanhaoyu/h-ua.git"
+  },
+  "author": "houn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuanhaoyu/h-ua/issues"
+  },
+  "homepage": "https://github.com/yuanhaoyu/h-ua#readme"
+}
