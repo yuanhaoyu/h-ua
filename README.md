@@ -10,7 +10,7 @@ According the UA to judge the current environment
 const enviorment = window.HAPPY_UA();
 ```
 
-use es6 modules
+or <code>npm install happy-ua --save </code> use es6 modules
 
 ```javascript
 import ua from 'happy-ua';
