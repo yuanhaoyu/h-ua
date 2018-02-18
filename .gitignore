@@ -40,6 +40,6 @@ thumbs.db
 node_modules/
 jscoverage_lib/
 .happypack/
-dist/
-dev/
+./dist/
+./dev/
 ./test/.cache
