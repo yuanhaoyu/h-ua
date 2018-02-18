@@ -4,11 +4,12 @@ According the UA to judge the current environment
  
 ## Quick start
 
-simple start
+<code>clone /src/h-ua.js </code> simple start 
 
-```javascripts
+```javascript
 const enviorment = window.HAPPY_UA();
 ```
+
 use es6 modules
 
 ```javascript
@@ -16,7 +17,7 @@ import ua from 'happy-ua';
 const enviorment = ua();
 ```
 
-## About
+## More
 
 you can get these in difference enviorment
 

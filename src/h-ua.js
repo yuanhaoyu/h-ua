@@ -39,4 +39,5 @@ function isWeibo (ua) {
 }
 
 window.HAPPY_UA = ua;
+
 export default ua;
