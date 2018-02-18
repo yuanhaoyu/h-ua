@@ -1,8 +1,8 @@
 {
-  "name": "h-ua",
-  "version": "1.0.0",
+  "name": "happy-ua",
+  "version": "1.0.1",
   "description": "help u that according to ua judge the current environment",
-  "main": "index.js",
+  "main": "./dist/h-auto.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/h-ua.js -d dev",

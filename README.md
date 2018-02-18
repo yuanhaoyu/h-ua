@@ -1,14 +1,22 @@
 # h-ua
- According the UA to judge the current environment
+
+According the UA to judge the current environment
  
 ## Quick start
 
-so easy to start
+simple start
+
+```javascripts
+const enviorment = window.HAPPY_UA();
+```
+use es6 modules
 
 ```javascript
-const enviorment = window.UA();
-
+import ua from 'happy-ua';
+const enviorment = ua();
 ```
+
+## About
 
 you can get these in difference enviorment
 

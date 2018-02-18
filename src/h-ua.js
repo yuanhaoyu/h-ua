@@ -38,5 +38,5 @@ function isWeibo (ua) {
     return (ua.indexOf('weibo') !== -1) ? true : false;
 }
 
-window.UA = ua;
+window.HAPPY_UA = ua;
 export default ua;
